@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_headers
+Disallow: /og-image.png
+
+Sitemap: https://bichrome.co/sitemap.xml
