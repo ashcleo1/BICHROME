@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — BICHROME</title>
+  <meta name="description" content="Privacy Policy for BICHROME, a boutique creative agency based in Los Angeles." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Syne:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23080808'/><text x='16' y='27' text-anchor='middle' font-family='Arial Black,sans-serif' font-size='26' fill='%23F4F3EF'>B</text></svg>" />
+  <style>
+    :root {
+      --black: #080808;
+      --white: #F4F3EF;
+      --gray: #5A5956;
+      --light: #9A9894;
+      --xlight: #C8C6C0;
+      --rule: rgba(10,10,10,0.08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Syne', sans-serif;
+      background: var(--white);
+      color: var(--black);
+    }
+
+    /* NAV */
+    nav {
+      padding: 28px 64px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.22em;
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    .nav-back {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      color: var(--light);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-back:hover { color: var(--black); }
+
+    /* CONTENT */
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 64px;
+    }
+
+    .page-eyebrow {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      color: var(--light);
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .page-eyebrow::before {
+      content: '';
+      display: block;
+      width: 20px; height: 1px;
+      background: var(--light);
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 56px;
+      letter-spacing: 0.02em;
+      color: var(--black);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .effective-date {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      color: var(--light);
+      text-transform: uppercase;
+      margin-bottom: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .intro {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.85;
+      color: var(--gray);
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--black);
+      margin-top: 48px;
+      margin-bottom: 16px;
+      padding-top: 48px;
+      border-top: 1px solid var(--rule);
+    }
+
+    h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+
+    p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.85;
+      color: var(--gray);
+      margin-bottom: 16px;
+    }
+
+    ul {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.85;
+      color: var(--gray);
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    a { color: var(--black); }
+    a:hover { color: var(--gray); }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 28px 64px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 80px;
+    }
+
+    .footer-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      color: var(--xlight);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+    }
+
+    .footer-link {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--xlight);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .footer-link:hover { color: var(--black); }
+    .footer-link.active { color: var(--black); }
+
+    .footer-copy {
+      font-size: 11px;
+      color: var(--xlight);
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 700px) {
+      nav { padding: 20px 24px; }
+      .content { padding: 48px 24px; }
+      h1 { font-size: 40px; }
+      footer { padding: 24px; flex-direction: column; gap: 12px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">BICHROME</a>
+  <a href="/" class="nav-back">← Back to site</a>
+</nav>
+
+<div class="content">
+
+  <p class="page-eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="effective-date">Effective Date: July 1, 2026</p>
+
+  <p class="intro">BICHROME is a boutique creative agency based in Los Angeles, CA. This Privacy Policy explains how we collect, use, and protect information submitted through bichrome.co.</p>
+
+  <h2>Information We Collect</h2>
+  <p>We collect information you voluntarily provide when you submit an inquiry through our contact form. This may include:</p>
+  <ul>
+    <li>Your first and last name</li>
+    <li>Your email address</li>
+    <li>Your company or brand name</li>
+    <li>The service you're inquiring about</li>
+    <li>Any additional details you include in your message</li>
+  </ul>
+  <p>We also collect anonymized usage data through Google Analytics, including pages visited, time on site, general location, and device type. This data does not identify you personally.</p>
+
+  <h2>How We Use Your Information</h2>
+  <p>Information submitted through the contact form is used solely to respond to your inquiry and evaluate whether we may be a good fit to work together. We do not sell, rent, or share your personal information with third parties for marketing purposes.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>We use the following third-party services to operate this site:</p>
+  <ul>
+    <li><strong>Formspree</strong> — processes contact form submissions and delivers them to our inbox. Formspree's privacy policy is available at formspree.io.</li>
+    <li><strong>Google Analytics</strong> — provides anonymized site traffic data. Google's privacy policy is available at policies.google.com/privacy.</li>
+    <li><strong>Google Fonts</strong> — serves web fonts used on this site. Font requests may be logged by Google.</li>
+    <li><strong>Netlify</strong> — hosts this website. Netlify may collect standard server logs including IP addresses.</li>
+  </ul>
+
+  <h2>Cookies</h2>
+  <p>This site uses cookies through Google Analytics to understand how visitors interact with the site. You can opt out of Google Analytics tracking by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a>.</p>
+
+  <h2>Data Retention</h2>
+  <p>Contact form submissions are retained only as long as necessary to respond to your inquiry. Google Analytics data is retained according to Google's standard retention policies.</p>
+
+  <h2>Your Rights</h2>
+  <p>If you would like to request access to, correction of, or deletion of any personal information you have submitted to us, please contact us at <a href="mailto:hello@bichrome.co">hello@bichrome.co</a>. We will respond within a reasonable timeframe.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>This site is not directed at children under the age of 13 and we do not knowingly collect personal information from children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we do, we will update the effective date at the top of this page. Continued use of the site after any changes constitutes your acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this Privacy Policy, please contact us at <a href="mailto:hello@bichrome.co">hello@bichrome.co</a>.</p>
+
+</div>
+
+<footer>
+  <span class="footer-logo">BICHROME</span>
+  <div class="footer-links">
+    <a href="/" class="footer-link">Home</a>
+    <a href="/privacy.html" class="footer-link active">Privacy Policy</a>
+  </div>
+  <span class="footer-copy">© 2026 · Los Angeles, CA</span>
+</footer>
+
+</body>
+</html>
